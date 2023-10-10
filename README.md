@@ -7,7 +7,8 @@ Todo-list project in React.js.You can add,mark and delete tasks,also you can com
 https://matrixek.github.io/todo-list-react/
 
 
-![screenshot](https://github.com/Matrixek/todo-list-react/assets/123593832/00e2890d-6e36-4c41-9133-ac49cfb72d2a)
+
+![screenshot](https://github.com/Matrixek/todo-list-react/assets/123593832/398878d8-ac57-4ef9-85f9-4ce5bba675e9)
 
 
 
