@@ -1,7 +1,10 @@
 # Task List
 
-# First page in React 
+## First page in React 
+Todo-list project in React.js.You can add,mark and delete tasks,also you can complete and hide completed tasks.
 
+### Link
+https://matrixek.github.io/todo-list-react/
 
 # Getting Started with Create React App
 
