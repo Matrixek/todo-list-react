@@ -20,6 +20,13 @@
     border-bottom: 1px solid black
 }
 
+@media (max-width: 767px) {
+    .section__header {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+
 .section__body {
     padding: 20px;
 }
