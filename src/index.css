@@ -1,5 +1,6 @@
 .html {
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 *, ::after, ::before {
@@ -7,6 +8,5 @@
 }
 
 .body {
-  font-family: 'Lato', sans-serif;
   background-color: #ededed;
 }
