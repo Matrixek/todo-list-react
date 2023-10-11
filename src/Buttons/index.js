@@ -1,8 +1,8 @@
-import React from "react"
-import "./style.css"
+import React from "react";
+import "./style.css";
 
 const Buttons = ({ tasks, hideDoneTasks }) => (
-    < span className="buttons buttons" >
+    < span className="buttons" >
         {tasks.length > 0 && (
             <React.Fragment>
                  <button className="buttons__button ">
