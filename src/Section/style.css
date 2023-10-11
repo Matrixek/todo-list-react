@@ -1,7 +1,8 @@
 .section {
-    margin: 10px 0;
-    background-color: white;
-    box-shadow: 0 0 5 px #ddd;
+        background-color: #fff;
+        box-shadow: 0 0 5px #ddd;
+        margin: 10px 0;
+    
 }
 
 .section__title {
