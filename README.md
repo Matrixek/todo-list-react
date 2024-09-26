@@ -1,5 +1,5 @@
 # Todo-list
-## Welcome to my tasksList during Frontend Developer course on YouCode. 
+## Welcome to my todo-list-react during Frontend Developer course on YouCode. 
 ---
 ## Demo
 ---
@@ -20,3 +20,4 @@ My  page allows you to add, uncheck and delete tasks and also allows you to hide
 - BEM
 - JS
 - HTML
+- React
