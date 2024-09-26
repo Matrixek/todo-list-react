@@ -1,4 +1,3 @@
-# Todo-list
 ## Welcome to my todo-list-react during Frontend Developer course on YouCode. 
 ---
 ## Demo
