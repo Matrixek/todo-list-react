@@ -18,6 +18,5 @@ My  page allows you to add, uncheck and delete tasks and also allows you to hide
 - Grid
 - ES6+ feature
 - BEM
-- JS
 - HTML
 - React
