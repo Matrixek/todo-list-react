@@ -50,10 +50,7 @@ function App() {
       }
     ]);
   };
-  localStorage.setItem("Tasks", JSON.stringify(Tasks));
-  sessionStorage.getItem("Tasks", JSON.stringify(Tasks))
-  JSON.parse(localStorage.getItem("Tasks"))
-
+  
   return (
     <Container >
       <Header title="Lista zadań" />
