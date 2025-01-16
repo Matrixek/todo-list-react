@@ -2,7 +2,7 @@
 ---
 ## Demo
 ---
-https://matrixek.github.io/tasksList/
+https://matrixek.github.io/todo-list-react/
 
 [recording-2023-09-27-22-10-36.webm](https://github.com/Matrixek/tasksList/assets/123593832/0fad9b5d-1cb4-4e52-81f3-452560a10e49)
 
