@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { defaultTasks } from "./defaultTasks";
+import { defaultTasks } from "./defaultTask";
 
 export const useTasks = () => {
     const getInitialTask = () => {
