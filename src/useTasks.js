@@ -3,16 +3,16 @@ import { defaultTasks } from "./defaultTask";
 
 export const useTasks = () => {
     const getInitialTask = () => {
-        const localStorageTask = localStorage.getItem(tasks);
+        const localStorageTask = localStorage.getItem("tasks");
         if (localStorageTask === null) {
             return defaultTasks;
         }
-        return JSON.parse(localStorage.getItem(tasks));
+        return JSON.parse(localStorage.getItem("tasks"));
     }
     const [tasks, setTasks] = useState(getInitialTask);
 
     useEffect(() => {
-        localStorage.setItem(tasks, JSON.stringify(tasks));
+        localStorage.setItem(tasks, JSON.stringify("tasks"));
     }, [tasks]);
 
 
@@ -43,12 +43,13 @@ export const useTasks = () => {
                 id: task.length ? task[tasks.length - 1].id + 1 : 1,
             }
         ]);
-        return {
-            tasks,
-            removeTask,
-            toggleTaskDone,
-            setAllDone,
-            addNewTask,
-        };
+       
+    };
+    return {
+        tasks,
+        removeTask,
+        toggleTaskDone,
+        setAllDone,
+        addNewTask,
     };
 }
