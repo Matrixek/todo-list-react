@@ -17,10 +17,10 @@ function App() {
   };
   const {
     tasks,
-    removeTasks,
-    toggleTasksDone,
+    removeTask,
+    toggleTaskDone,
     setAllDone,
-    addNewTasks,
+    addNewTask,
   } = useTasks();
 
   return (
@@ -28,15 +28,15 @@ function App() {
       <Header title="Lista zadań" />
       <Section title=
         "Dodaj nowe zadanie"
-        body={<Form addNewTasks={addNewTasks} />}
+        body={<Form addNewTask={addNewTask} />}
       />
       <Section
         title="Lista zadań "
         body={
           <Tasks tasks={tasks}
             hideDone={hideDone}
-            removeTasks={removeTasks}
-            toggleTasksDone={toggleTasksDone}
+            removeTask={removeTask}
+            toggleTaskDone={toggleTaskDone}
           />
         }
         extraHeaderContent={
