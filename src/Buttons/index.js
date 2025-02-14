@@ -1,8 +1,8 @@
 import React from "react";
-import { StyledButton,Button } from "./styled";
+import { StyledButtons,Button } from "./styled";
 
 const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
-    <StyledButton>
+    <StyledButtons>
         {tasks.length > 0 && (
             <React.Fragment>
                 <Button onClick={toggleHideDone}>
@@ -16,6 +16,6 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
                 </Button>
             </React.Fragment>
         )}
-   </StyledButton>
+   </StyledButtons>
 )
 export default Buttons;
