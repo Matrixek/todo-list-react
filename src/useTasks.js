@@ -10,7 +10,8 @@ export const useTasks = () => {
         return JSON.parse(localStorage.getItem("tasks"));
     }
     const [tasks, setTasks] = useState(getInitialTask);
-
+    const [hideDone, setHideDone] = useState(false);
+    
     useEffect(() => {
         localStorage.setItem(tasks, JSON.stringify("tasks"));
     }, [tasks]);
@@ -34,6 +35,11 @@ export const useTasks = () => {
             done: true,
         })));
     };
+    
+    const toggleHideDone = () => {
+        setHideDone(hideDone => !hideDone);
+
+    };
     const addNewTask = (content) => {
         setTasks(task => [
             ...task,
@@ -43,7 +49,7 @@ export const useTasks = () => {
                 id: task.length ? task[tasks.length - 1].id + 1 : 1,
             }
         ]);
-       
+
     };
     return {
         tasks,
@@ -51,5 +57,7 @@ export const useTasks = () => {
         toggleTaskDone,
         setAllDone,
         addNewTask,
+        toggleHideDone,
+        hideDone,
     };
 }
