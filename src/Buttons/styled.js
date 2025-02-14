@@ -1,10 +1,10 @@
-import styled,{css} from "styled-components";
+import styled, { css } from "styled-components";
 
-export const StyledButton = styled.div`
+export const StyledButtons = styled.div`
     display: flex;
     flex-wrap: wrap;
 
-@media (max-width: 767px) {
+@media (max-width: (max-width: ${({ theme }) => theme.breakpoint.mobile}px)) {
       flex-basis: 100%;
       margin: 5px;
     
@@ -12,12 +12,12 @@ export const StyledButton = styled.div`
 `;
 export const Button = styled.button`
     background: transparent;
-    color: teal;
+    color:${({ theme }) => theme.colors.teal} ;
     border: none;
     margin: 0 0 0 20px;
     transition: color 0.3s;
 
 ${({ disabled }) => disabled && css`
-     color: #ccc;
+     color: ${({ theme }) => theme.colors.disabledBtn};
     `}
 `;
